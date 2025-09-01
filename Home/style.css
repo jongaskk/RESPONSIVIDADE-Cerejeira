@@ -1,0 +1,52 @@
+:root{
+    --burgundy: #590d22;
+    --medium-burgundy: #800f2f;
+    --magenta: #a4133c;
+    --dark-pink: #c9184a;
+    --dark-pastel-pink: #ff4d6d;
+    --medium-pastel-pink: #ff758f;
+    --light-pastel-pink: #ff8fa3;
+    --pink-50-opacity: #ffb3c1;
+    --pink-25-opacity: #ffccd5;
+    --white: #fff0f3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.s1{
+    width: 100%;
+    height: auto;
+}
+
+.wrap-img{
+    width: 100;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.wrap.text{
+    width: 100%;
+    padding: 20px;
+}
+
+.title{
+    color: var(--dark-pink);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.text{
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    font-size: 20px;
+    line-height: 30px;
+}
+
