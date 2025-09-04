@@ -133,7 +133,7 @@ button:hover{
 .line2, .line3{
     display: none;
 }
-.aaa{
+.meaning{
 
 }
 
@@ -181,7 +181,10 @@ button:hover{
         width: 90vw;
         margin: 0 auto;
     }
-    .aaa{
-        
+    .meaning{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: "Inter";
+        color: var(--white);
     }
 }
