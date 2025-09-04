@@ -37,7 +37,7 @@ body{
     box-shadow: 0 4px 4px #090909;
 }
 
-.wrap.text{
+.wrap-text1{
     width: 100%;
     padding: 20px;
 }
@@ -52,18 +52,93 @@ body{
 .text{
     font-family: "Inter", sans-serif;
     color: var(--white);
-    font-size: 20px;
+    font-size: 220px;
     line-height: 30px;
 }
 
 .line1{
     height: 3px;
     background-color: var(--dark-pink);
+    border-color: var(--dark-pink);
     width: 90%;
     margin: 0 auto;
 }
 
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    min-height: 80vh;
+    padding:50px 0px;
+}
+
+.wrap-img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+
+}
+
+.img-card{
+    width: 300px;
+    height: 200px;
+    transform: scale(1.2);
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: var(--medium-pastel-pink);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px #090909;
+}
+.wrap-text{
+    padding: 20px;
+}
+.wrap-text h2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap-text p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+button{
+    margin: 0 auto;
+    width: 312px;
+    height: 72px;
+    border-radius: 999px;
+    background-color: var(--light-pastel-pink);
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.line2, .line3{
+    display: none;
+}
+.aaa{
+
+}
+
 @media(width >= 768px){
+    
     .s1{
         min-height: 80vh;
         background-image: url(../Images/backgroundDesktop.png);
@@ -76,7 +151,7 @@ body{
         flex-direction: column;
         width: 100%;
         padding: 0px 40px;
-        box-shadow: 0 4px 20px #090909;
+        box-shadow: 0 4px 20px #1c0808;
     }
 
     .img{
@@ -93,8 +168,20 @@ body{
     }
 
     .text{
-        font-size: 38px;
+        font-size: 150px;
         text-shadow: 0 4px 4px rgba(0, 0, 0);
         line-height: 55px;
+    }
+
+    .line2, .line3{
+        display: block;
+        height: 5px;
+        border: var(--medium-pastel-pink);
+        background-color: var(--medium-burgundy);
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .aaa{
+        
     }
 }
